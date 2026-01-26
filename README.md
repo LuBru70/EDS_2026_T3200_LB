@@ -1,12 +1,13 @@
-# BALANCER Project and other examples for education at DHBW Stuttgart - Mechatronics 
+# BALANCER Project
+# examples for mechatronics education at DHBW Stuttgart
 ## (C) 2026 [Prof. Tobias Flaemig](https://www.dhbw-stuttgart.de/studium/bachelor-studienangebot/technik/mechatronik/ansprechpersonen/prof-dr-ing-tobias-flaemig/)
 
-dir contains source and project files for STM32 using CubeIDE
+the directories contains source and project files for STM32 using CubeIDE
 
 
 **[BALi](./BALi)** is the main project and contains src ie main and all inc files
 
-projects dir with the follwoing **_extentions** are configured for different hardware
+projects dirs with **_extentions** are configured for different hardware
 
 **_NucF401** - ST-Nucleo Board with SMT32F401RE
 
@@ -14,15 +15,15 @@ projects dir with the follwoing **_extentions** are configured for different har
 
 
 ## LIBS
-**CMSIS** 
+**[CMSIS](./CMSIS)** Common Microcontroller Software Interface Standard is a set of APIs, software component
 
-**MCAL**  Interfaces ie I2C, SPI
+**[MCAL](./MCAL)** SWLib for communication interfaces ie I2C, SPI
 
-**BALO**  componenets ie MEMS, Display, Rot-Push-Buttom
+**[BALO](./BALO)**  SWLib for componenets ie MEMS, Display, Rot-Push-Buttom and a lot of documentation
 
 ## additional education projects 
 
-**HAL_Blinky1**  used the HAL config of CubeIDE as a starting practice with the Nucleo Board
+**[HAL_Blinky1](./HAL_Blinky1)**  used the HAL config of CubeIDE as a starting practice with the Nucleo Board
 
-**[BLINK2_BlckP](https://github.com/tflaemig68/EDS_2026/tree/main/BLINK2_BlckP)** Blinking example with the BlackPill
+**[BLINK2_BlckP](./BLINK2_BlckP)** Blinking example with the BlackPill
 
