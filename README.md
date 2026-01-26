@@ -9,5 +9,9 @@ dir contains source and project files for STM32 using CubeIDE
 
 **BALO**  componenets ie MEMS, Display, Rot-Push-Buttom
 
-## Projects
+## Projects with extention have mostly dir-links and are configured for
+
+**_NucF401** - ST-Nucleo Board with SMT32F401RE
+
+**_Blck**   - BlackPill with STM32F401CCU
 
