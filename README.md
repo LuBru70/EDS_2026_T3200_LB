@@ -10,7 +10,7 @@ projects dir with the follwoing **_extentions** are configured for different har
 
 **_NucF401** - ST-Nucleo Board with SMT32F401RE
 
-**_Blck**   - BlackPill with STM32F401CCU 
+**_BlckP**   - BlackPill with STM32F401CCU 
 
 
 ## LIBS
