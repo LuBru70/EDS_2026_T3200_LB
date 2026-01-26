@@ -1,8 +1,10 @@
-# BALANCER Project and other examples for education at DHBW Stuttgart - Mechatronics
+# BALANCER Project and other examples for education at DHBW Stuttgart - Mechatronics 
+## (C) 2026 [Prof. Tobias Flaemig](https://www.dhbw-stuttgart.de/studium/bachelor-studienangebot/technik/mechatronik/ansprechpersonen/prof-dr-ing-tobias-flaemig/)
 
 dir contains source and project files for STM32 using CubeIDE
 
-**BALi project Dir** contains src ie main and all inc 
+**Main project Dir**
+**[BALi](../BALi)** contains src ie main and all inc 
 
 Projects with the follwoing extentions have only dir-links at the CubeIDE Workspace and are configured for different hardware
 
