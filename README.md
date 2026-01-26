@@ -4,7 +4,7 @@
 dir contains source and project files for STM32 using CubeIDE
 
 **Main project Dir**
-**[BALi](../BALi)** contains src ie main and all inc 
+**[BALi](./BALi)** contains src ie main and all inc 
 
 Projects with the follwoing extentions have only dir-links at the CubeIDE Workspace and are configured for different hardware
 
