@@ -59,8 +59,8 @@ all: main-build
 main-build: BLINK2_BlckP.elf secondary-outputs
 
 # Tool invocations
-BLINK2_BlckP.elf BLINK2_BlckP.map: $(OBJS) $(USER_OBJS) D:\GITHUB\STM32\EDS_2026\BLINK2_BlckP\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BLINK2_BlckP.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\GITHUB\STM32\EDS_2026\BLINK2_BlckP\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLINK2_BlckP.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BLINK2_BlckP.elf BLINK2_BlckP.map: $(OBJS) $(USER_OBJS) C:\GITHUB\STM32\EDS_2026\BLINK2_BlckP\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BLINK2_BlckP.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\GITHUB\STM32\EDS_2026\BLINK2_BlckP\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLINK2_BlckP.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -96,7 +96,7 @@ extern void visualisationTOF(TOFSensor_t* TOFSENS);
 
 /*------------ reserve for RFID Reader -----------------*/
 #define i2cAddr_RFID	0x50
-extern bool enableRFID = false;
+//extern bool enableRFID = false;
 
 
 /*------------ MPU6050 Sensor -----------------*/
