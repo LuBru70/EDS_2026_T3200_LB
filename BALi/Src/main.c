@@ -25,6 +25,7 @@
 #include <i2cAMIS.h>
 #include <i2cTOF.h>
 #include <regler.h>
+#include <i2cRFID.h>
 #include "route.h"
 
 #include "i2cDevices.h"
@@ -44,6 +45,7 @@ static Balancer_t bala;
 /**
  * TODO: timer list und systick einbauen
  */
+bool timerTrigger = false;
 
 // ******************** main()  ********************
 int main(void) {
