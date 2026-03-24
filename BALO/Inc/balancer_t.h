@@ -15,6 +15,7 @@
  */
 #include <stdint.h>
 #include <stdbool.h>
+#include "stm32f4xx.h"
 #include <i2cMPU.h>
 #include <i2cAMIS.h>
 #include <i2cTOF.h>
