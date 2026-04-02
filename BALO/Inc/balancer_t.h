@@ -111,11 +111,14 @@ struct Balancer {
 	float rampRot;
 	float tarPosL;
 	float tarPosR;
+	float targetTra;
+	float targetRot;
 	int16_t curMotL;
 	int16_t curMotR;
 	bool activeMove;
 	bool resetStepL;
 	bool resetStepR;
+	bool stepLenable;
 	bool stepRenable;
 	uint8_t  routeNum;     // which pre-defined route is active
 	uint8_t  routeStep;    // current waypoint index
@@ -124,17 +127,17 @@ struct Balancer {
 	int16_t  posMotR;      // last commanded position, right motor
 
 
-	TaskModus taskMode;
+	TaskModus TaskMode;
 	uint8_t devMask;	// which HW was found on I2C
-	bool runInit;
+	bool RunInit;
 
 	/* ---------- Params ---------- */
 	float ParamValue[PARAM_COUNT];
 
 	/* ---------- SysTick timers ---------- */
 	uint32_t StepTaskTimer;		// inner control loop (PID_phi)
-	uint32_t DispTaskTimer;		// outer control loop (PID_dist)
-	uint32_t DistCtrlTaskTimer; // loop countdown for display communication
+	uint32_t DispTaskTimer;		// loop countdown for display communication
+	uint32_t DistCtrlTaskTimer; // outer control loop (PID_dist)
 
 	/* ---------- Methods ---------- */
 	void (*init) (Balancer_t *b);
