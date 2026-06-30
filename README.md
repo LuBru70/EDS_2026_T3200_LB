@@ -113,10 +113,10 @@ BALO/docs/
 
 ## Project Status
 
-The refactoring into `Balancer_t` and the `M_DistCtrl` mode were implemented as part of the T3200 student project.
+The `Balancer_t` refactoring and the `M_DistCtrl` task mode were implemented as part of the T3200 student project.
 
-The pitch-balancing controller is inherited from the base project and remains the inner control loop.
-The TOF-based distance-control cascade was added as an experimental extension and documented for further tuning and evaluation.
+The inherited pitch-balancing controller remains the inner control loop.  
+The TOF-based distance-control cascade was implemented and tested as an extension for distance regulation experiments. Further tuning and validation would be required for robust operation across different hardware setups.
 
 ---
 
