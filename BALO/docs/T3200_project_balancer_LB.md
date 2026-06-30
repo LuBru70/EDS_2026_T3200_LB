@@ -263,7 +263,7 @@ The balancer holds distance to a static wall and tracks a moving target (e.g. a 
 
 The cascade was tuned inside-out: each stage was made stable before the next outer stage was enabled. Gains were changed one at a time, the physical response was observed, and adjustments were made based on a small set of recognisable failure modes.
 
-#### Stage 1 — Operating environment
+#### Stage 1 — Operating environmentpyt
 
 The physical limits of the stepper actuator were characterised before any cascade tuning. Because the wheels are position-controlled, the textbook coupling between commanded chassis lean and resulting translation does not hold cleanly: lean angles below approximately 0.05 rad produce no visible translation, while lean angles above approximately 0.125 to 0.15 rad cause the chassis to fall forward. The working range for the cascade output is therefore narrow. `a_pClp` was set to 0.15 rad so the cascade has access to the upper edge of the working band while the inner-loop fall detection at 0.35 rad remains as a final safety net.
 
