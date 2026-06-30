@@ -5,14 +5,32 @@
 the directories contains source and project files for STM32 using CubeIDE
 
 
+## Repository Structure
+
+```text
+EDS_2026_T3200_LB/
+├── README.md
+├── .project
+├── .gitignore
+├── .gitattributes
+│
+├── BALi/
+│   ├── debug/
+│   ├── Inc/
+│   └── Src/
+├── BALO/
+│   ├── debug/
+│   ├── docs/
+│   ├── html/
+│   ├── Inc/
+│   └── Src/
+├── CMSIS/
+└── MCAL/
+```
+
+
+
 **[BALi](./BALi)** is the main project and contains src ie main and all inc files
-
-projects dirs with **_extentions** are configured for different hardware
-
-**_NucF401** - ST-Nucleo Board with SMT32F401RE
-
-**_BlckP**   - BlackPill with STM32F401CCU 
-
 
 ## LIBS
 **[CMSIS](./CMSIS)** Common Microcontroller Software Interface Standard is a set of APIs, software component
@@ -20,10 +38,3 @@ projects dirs with **_extentions** are configured for different hardware
 **[MCAL](./MCAL)** SWLib for communication interfaces ie I2C, SPI
 
 **[BALO](./BALO)**  SWLib for componenets ie MEMS, Display, Rot-Push-Buttom and a lot of documentation
-
-## additional education projects 
-
-**[HAL_Blinky1](./HAL_Blinky1)**  used the HAL config of CubeIDE as a starting practice with the Nucleo Board
-
-**[BLINK2_BlckP](./BLINK2_BlckP)** Blinking example with the BlackPill
-
